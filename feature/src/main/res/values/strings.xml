@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_full_name">Full Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">No account yet? Create one</string>
+    <string name="action_forgot_password">Forgot</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="btn_LoginGooglePlus">Login in GooglePlus</string>
+    <string name="btn_register">Register</string>
+    <string name="request_for_confirmation">A request for confirmation has been sent to your e-mail address. Please confirm your account by click on the link within the e-mail</string>
+    <string name="registration_error">Something went wrong&#8230;</string>
+    <string name="registration_success_message">Thank you for registering with the %1$s.</string>
+    <string name="btn_sign_in_with_google">Sign in with Google</string>
+    <string name="btn_recover">Recover</string>
+
+</resources>

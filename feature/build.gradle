@@ -1,0 +1,47 @@
+apply plugin: 'com.android.feature'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lintOptions {
+        disable 'InvalidPackage', 'RtlCompat'
+        abortOnError false
+    }
+
+    defaultConfig {
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        javaMaxHeapSize "3g" //specify the heap size for the dex process
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.backendless:backendless:5.0.0'
+
+
+    // required for real-time database and real-time messaging
+    implementation ('io.socket:socket.io-client:1.0.0') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
+    }
+        implementation project(':base')
+        testImplementation 'junit:junit:4.12'
+        androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+}

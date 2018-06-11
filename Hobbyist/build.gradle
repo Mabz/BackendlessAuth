@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        applicationId "com.theswazi.hobbyist.app"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+
+    buildTypes {
+       release {
+           minifyEnabled false
+       }
+    }
+
+}
+
+dependencies {
+    implementation project(':feature')
+    implementation project(':base')
+}

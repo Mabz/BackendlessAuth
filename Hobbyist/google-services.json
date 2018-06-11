@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "409096851644",
+    "firebase_url": "https://hobbyist-app.firebaseio.com",
+    "project_id": "hobbyist-app",
+    "storage_bucket": "hobbyist-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409096851644:android:fc4bea334b8ad244",
+        "android_client_info": {
+          "package_name": "com.theswazi.Hobbyist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409096851644-i5q0iq4iuijk0aqbvdvprcg8b14ohk0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theswazi.Hobbyist",
+            "certificate_hash": "3a9a8b78c569cbaaae392ea634ec13ef936a277b"
+          }
+        },
+        {
+          "client_id": "409096851644-akn54tmogft9figrrk46apgiam2ltcmn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "409096851644-akn54tmogft9figrrk46apgiam2ltcmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUesaapEwO0kUBxQow0DBqSDLIltNRrW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409096851644-akn54tmogft9figrrk46apgiam2ltcmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
